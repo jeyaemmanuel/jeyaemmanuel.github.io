@@ -1,0 +1,53 @@
+.navbar {
+background-color: white;
+padding-top: 30px;
+padding-bottom: 0px;
+}
+
+body {
+  background:rgb(245, 242, 242);
+}
+.navbar li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar-header a {
+  padding: 10px;
+  font-size:x-large;
+  align-content: center;
+  background-color: rgb(6, 190, 151);
+  color:white;
+}
+
+p{
+  font-size: 18px;
+}
+
+.container h1 {
+  color : rgba(6, 190, 151, 0.904);
+}
+
+.container h2 {
+  color : rgba(6, 190, 151, 0.904);
+}
+
+.container h4 {
+  color : rgba(6, 190, 151, 0.904);
+  font-weight: bold;
+  padding-left: 0px;
+}
+
+.container {
+  background-color: white;
+  max-width: 100%;
+  align-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+.navbar {
+  background:rgb(6, 190, 151);
+}
+
+}
