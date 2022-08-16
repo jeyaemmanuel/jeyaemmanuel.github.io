@@ -1,0 +1,36 @@
+mass_shooting
+-
+ID serial PK
+incident_id int
+incident_date date
+state text FK >- overdoses.state
+city_county text
+no_injured int
+no_killed int
+
+accidental_deaths
+-
+ID serial PK
+incident_id int
+incident_date date
+state text FK >- overdoses.state
+city_county text
+no_injured int
+no_killed int
+
+accidental_injuries
+-
+ID serial PK
+incident_id int
+incident_date date
+state text FK >- overdoses.state
+city_county text
+no_injured int
+no_killed int
+
+overdoses
+-
+ID serial PK
+state text
+population int
+deaths int
